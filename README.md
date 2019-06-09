@@ -26,6 +26,8 @@ If you are not sure. Contact your provider for up-to-date information.
 
 -=-=-=-=-=E-mail Notification-=-=-=-=
 
+![alt text](https://raw.githubusercontent.com/byhardest/dnspharming/master/dnspharming_emailnotification.png)
+
 By default, e-mail notification comes with 0. (Disabled) Switch enabled_email to 1.
 
 I have only tested with GMAIL using port 587. 
