@@ -23,7 +23,9 @@ By default, e-mail notification comes with 0. (Disabled) Switch enabled_email to
 
 I have only tested with GMAIL using port 587. 
 I recommend you to setup a specific account for this purpose.
-You will also need to grant access as 'high risk considered applications.' in order to work at https://myaccount.google.com/security.
+You will also need to grant access as 'high risk considered applications.' in order to work at 
+https://myaccount.google.com/security.
+
 Following the procedures above or picking up an account is at your own risk.
 
 -=-=-=-=-=To be improved-=-=-=-=-=
