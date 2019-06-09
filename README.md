@@ -19,7 +19,7 @@ By default dnspharming.ini config comes blank, which can be filled when running 
 -FEEDS as: (Whitelist, and DNS Servers) MUST be at feeds/ If you use CDNs, Akamai and Cloudfront was uploaded by 2019-06-09. 
 If you are not sure. Contact your provider for up-to-date information. 
 
--CONFIG as (domain name, filenames feeds ones) must be at /config
+-CONFIG as (domain name, filenames feeds ones) must be at /config.
 
 -=-=-=-=-=E-mail Notification-=-=-=-=
 
@@ -27,7 +27,7 @@ By default, e-mail notification comes with 0. (Disabled) Switch enabled_email to
 
 I have only tested with GMAIL using port 587. 
 I recommend you to setup a specific account for this purpose.
-You will also need to grant access as 'high risk considered applications.' in order to work at 
+You will also need to grant access as 'high risk considered applications.' in order to work. 
 https://myaccount.google.com/security.
 
 Following the procedures above or picking up an account is at your own risk.
