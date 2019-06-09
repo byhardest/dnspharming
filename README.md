@@ -1,4 +1,5 @@
-# dnspharming
+# dnspharming detection utility (passive)
+
 Very simple project to monitor passively your brand against malicious responses
 
 -=-=-=-=-Brand Monitoring against DNS Pharming -=-=-=-=-=
