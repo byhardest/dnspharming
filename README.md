@@ -34,6 +34,6 @@ Following the procedures above or picking up an account is at your own risk.
 
 -=-=-=-=-=To be improved-=-=-=-=-=
 
--support for multiple domains.
--compression and rotation for /logs folder.
--encryption for smtp password under /config folder.
+-support for multiple domains.<p>
+-compression and rotation for /logs folder.<p>
+-encryption for smtp password under /config folder.<p>
