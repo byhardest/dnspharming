@@ -2,6 +2,9 @@
 
 Very simple project to monitor passively your brand against malicious responses
 
+![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg (Imperva image)
+
+
 -=-=-=-=-<b>Brand Monitoring against DNS Pharming/Poisoning attacks</b> -=-=-=-=-=<br>
 -=-=-=-=-       v.1.0 2019-06-09 	             -=-=-=-=-=
 
@@ -30,24 +33,19 @@ If you are not sure. Contact your provider for up-to-date information.
 
 By default, e-mail notification comes with 0. (Disabled) Switch enabled_email to 1.
 
-I have only tested with GMAIL using port 587. 
-I recommend you to setup a specific account for this purpose.
-You will also need to grant access as 'high risk considered applications.' in order to work. 
+I have only tested with GMAIL using port 587. <br>
+I recommend you to setup a specific account for this purpose.<br>
+You will also need to grant access as 'high risk considered applications.' in order to work. <br>
 https://myaccount.google.com/security.
 
 Following the procedures above or picking up an account is at your own risk.
-<b>-=-=-=-=-=LOGS-=-=-=-=</b>
+<b>-=-=-=-=-=LOGS-=-=-=-=</b><br>
 
-Logs are generated under /logs within files written per month.
-They can be extracted and set to a SIEM. <p></p>
+Logs are generated under /logs within files written per month.<br>
+They can be extracted and set to your SIEM. <p></p>
 
 -=-=-=-=-=To be improved-=-=-=-=-=
 
 -support for multiple domains.<p>
 -compression and rotation for /logs folder.<p>
 -encryption for smtp password under /config folder.<p>
-
-
-How does the attack work?
-
-![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg)
