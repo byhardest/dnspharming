@@ -2,8 +2,8 @@
 
 Very simple project to monitor passively your brand against malicious responses
 
-![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg)<br>
-<center><font size=5>(image-src: Imperva)</center>
+![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg)
+(image-src: Imperva)<br>
 
 
 -=-=-=-=-<b>Brand Monitoring against DNS Pharming/Poisoning attacks</b> -=-=-=-=-=<br>
@@ -12,7 +12,7 @@ Very simple project to monitor passively your brand against malicious responses
 ![alt text](https://raw.githubusercontent.com/byhardest/dnspharming/master/dnspharming_bash.png)
 
 This code was made using python 3.6.7 <br>
-Make sure you meet the following criterias before running;
+Make sure you meet the following criterias before running;<br>
 
 sudo easy_install pip3<br>
 sudo pip3 install -r requirements.txt
