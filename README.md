@@ -34,7 +34,7 @@ This script is suitable for monitoring, I recommend to schedule via cron hourly/
 By default config/dnspharming.ini config comes at blank arguments, which can be filled when running the dnspharming.py script for the 1st time or manually.
 
 -FEEDS as: (Whitelist, and DNS Servers) MUST be at feeds/ <br>
-If you use CDNs, Akamai and Cloudfront was uploaded by 2019-06-09.<br>
+If you use CDNs, Akamai and Cloudfront list was uploaded by 2019-06-09.<br>
 If you are not sure about this information. Contact your DNS Administrator for up-to-date information. 
 <br>
 -CONFIG as (domain name, filenames feeds ones) must be at /config.
@@ -47,7 +47,7 @@ By default, e-mail notification comes with 0. (Disabled) <br>Switch enabled_emai
 
 I have only tested with GMAIL using port 587. <br>
 I recommend you to setup a specific account for this purpose.<br>
-You will also need to grant access as 'high risk considered applications.' in order to work. <br>
+When using GMAIL, you will also need to grant access as 'high risk considered applications.' in order to work. <br>
 https://myaccount.google.com/security.
 
 Following the procedures above or picking up an account is at your own risk.<br>
