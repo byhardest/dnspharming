@@ -14,14 +14,14 @@ Very simple project to monitor passively your brand against DNS malicious respon
 <b>-=-=-=-=HOW DOES THE PREVENTION WORKS-=-=-=-=</b>
 
 1) The scripts comes with a pre-built list of 20k+ worldwide open resolvers but you can increment or pick your own. (Shodan API is a good option if you have enough credits.) <br>
-2) Declare your domain <br>
+2) Declare your domain. <br>
 3) Insert your whitelist IPs. <br>
 4) Cron the script. It will check if any given answer does not match your whitelist. <br>
-Enable email notification or Send the logs to your SIEM <br>
+Enable email notification or Send the logs to your SIEM. <br>
 5) Be notified when someone answer an IP address which is not authozied by you. <br>
 
 
-This code was made using python 3.6.7 <br>
+This code was made using python 3.6.7. <br>
 Make sure you meet the following criterias before running;<br>
 
 sudo easy_install pip3<br>
