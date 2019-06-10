@@ -26,6 +26,7 @@ Make sure you meet the following criterias before running;<br>
 
 sudo easy_install pip3<br>
 sudo pip3 install -r requirements.txt
+USAGE: $> python3 dnspharming.py 
 
 This script is suitable for monitoring, I recommend to schedule via cron hourly/daily.
 
