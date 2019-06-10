@@ -1,19 +1,19 @@
 # <h2> <b> dnspharming detection utility </b></h2>
 
-Very simple project to monitor passively your brand against malicious responses
+Very simple project to monitor passively your brand against DNS malicious responses
 
 ![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg)
 (image-src: Imperva)<br>
 
 
--=-=-=-=-<b>Brand Monitoring against DNS Pharming/Poisoning attacks</b> -=-=-=-=-=<br>
+-=-=-=-=-<b>Brand/Domain monitoring against DNS Pharming/Poisoning attacks</b> -=-=-=-=-=<br>
 <center>v.1.0 2019-06-09</center>
 
 ![alt text](https://raw.githubusercontent.com/byhardest/dnspharming/master/dnspharming_bash.png)
 
 <b>-=-=-=-=HOW DOES THE PREVENTION WORKS-=-=-=-=</b>
 
-1) The scripts comes with a pre-built list of 20k+ open resolvers but you can increment or pick your own. (Shodan API is a good option if you have enough credits.) <br>
+1) The scripts comes with a pre-built list of 20k+ worldwide open resolvers but you can increment or pick your own. (Shodan API is a good option if you have enough credits.) <br>
 2) Declare your domain <br>
 3) Insert your whitelist IPs. <br>
 4) Cron the script. It will check if any given answer does not match your whitelist. <br>
@@ -31,18 +31,19 @@ This script is suitable for monitoring, I recommend to schedule via cron hourly/
 
 <b>-=-=-=-=CONFIG FILE-=-=-=-=</b>
 
-By default dnspharming.ini config comes at blank, which can be filled when running the dnspharming.py script for the 1st time. 
+By default config/dnspharming.ini config comes at blank arguments, which can be filled when running the dnspharming.py script for the 1st time or manually.
 
--FEEDS as: (Whitelist, and DNS Servers) MUST be at feeds/ If you use CDNs, Akamai and Cloudfront was uploaded by 2019-06-09. 
-If you are not sure. Contact your provider for up-to-date information. 
-
+-FEEDS as: (Whitelist, and DNS Servers) MUST be at feeds/ <br>
+If you use CDNs, Akamai and Cloudfront was uploaded by 2019-06-09.<br>
+If you are not sure about this information. Contact your DNS Administrator for up-to-date information. 
+<br>
 -CONFIG as (domain name, filenames feeds ones) must be at /config.
 
 <b>-=-=-=-=-=E-mail Notification-=-=-=-=</b>
 
 ![alt text](https://raw.githubusercontent.com/byhardest/dnspharming/master/dnspharming_emailnotification.png)
 
-By default, e-mail notification comes with 0. (Disabled) Switch enabled_email to 1.
+By default, e-mail notification comes with 0. (Disabled) <br>Switch enabled_email to 1 for enabling it.
 
 I have only tested with GMAIL using port 587. <br>
 I recommend you to setup a specific account for this purpose.<br>
