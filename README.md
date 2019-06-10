@@ -3,7 +3,7 @@
 Very simple project to monitor passively your brand against malicious responses
 
 ![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg)<br>
-<center></center>(Imperva image)
+<center><font size=5>(image-src: Imperva)</center>
 
 
 -=-=-=-=-<b>Brand Monitoring against DNS Pharming/Poisoning attacks</b> -=-=-=-=-=<br>
