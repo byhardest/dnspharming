@@ -11,7 +11,7 @@ Very simple project to monitor passively your brand against DNS malicious respon
 
 ![alt text](https://raw.githubusercontent.com/byhardest/dnspharming/master/dnspharming_bash.png)
 
-<b>-=-=-=-=HOW DOES THE PREVENTION WORKS-=-=-=-=</b>
+<b>-=-=-=-=How does the prevention work?-=-=-=-=</b>
 
 1) The scripts comes with a pre-built list of 20k+ worldwide open resolvers but you can increment or pick your own. (Shodan API is a good option if you have enough credits.) <br>
 2) Declare your domain. <br>
@@ -30,7 +30,7 @@ USAGE: $> python3 dnspharming.py
 
 This script is suitable for monitoring, I recommend to schedule via cron hourly/daily.
 
-<b>-=-=-=-=CONFIG FILE-=-=-=-=</b>
+<b>-=-=-=-=Config File-=-=-=-=</b>
 
 By default config/dnspharming.ini config comes at blank arguments, which can be filled when running the dnspharming.py script for the 1st time or manually.
 
