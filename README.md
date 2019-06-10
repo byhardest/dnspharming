@@ -13,12 +13,12 @@ Very simple project to monitor passively your brand against malicious responses
 
 <b>-=-=-=-=HOW DOES THE PREVENTION WORKS-=-=-=-=</b>
 
-The scripts comes with a pre-built list of 20k+ open resolvers. <br>
-Declare your domain <br>
-Insert your whitelist IPs. <br>
-Cron the script. It will check if any given answer does not match your whitelist. <br>
+1) The scripts comes with a pre-built list of 20k+ open resolvers but you can increment or pick your own. (Shodan API is a good option if you have enough credits.) <br>
+2) Declare your domain <br>
+3) Insert your whitelist IPs. <br>
+4) Cron the script. It will check if any given answer does not match your whitelist. <br>
 Enable email notification or Send the logs to your SIEM <br>
-Be notified when someone answer an IP address which is not authozied by you. <br>
+5) Be notified when someone answer an IP address which is not authozied by you. <br>
 
 
 This code was made using python 3.6.7 <br>
@@ -50,10 +50,11 @@ You will also need to grant access as 'high risk considered applications.' in or
 https://myaccount.google.com/security.
 
 Following the procedures above or picking up an account is at your own risk.<br>
+
 <b>-=-=-=-=-=LOGS-=-=-=-=</b><br>
 
-Logs are generated under /logs within files written per month.<br>
-They can be extracted and set to your SIEM. <p></p>
+-Logs are generated under /logs within files written per month.<br>
+-They can be extracted and set to your SIEM. <p></p>
 
 -=-=-=-=-=To be improved-=-=-=-=-=
 
