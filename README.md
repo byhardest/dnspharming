@@ -7,10 +7,10 @@ Very simple project to monitor passively your brand against malicious responses
 
 ![alt text](https://raw.githubusercontent.com/byhardest/dnspharming/master/dnspharming_bash.png)
 
-This code was made using python 3.6.7 
+This code was made using python 3.6.7 <br>
 Make sure you meet the following criterias before running;
 
-sudo easy_install pip3
+sudo easy_install pip3<br>
 sudo pip3 install -r requirements.txt
 
 This script is suitable for monitoring, I recommend to schedule via cron hourly/daily.
