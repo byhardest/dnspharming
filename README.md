@@ -50,4 +50,4 @@ They can be extracted and set to a SIEM. <p></p>
 
 How does the attack work?
 
-![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg
+![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg)
