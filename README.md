@@ -61,4 +61,4 @@ Following the procedures above or picking up an account is at your own risk.<br>
 
 -support for multiple domains.<p>
 -compression and rotation for /logs folder.<p>
--encryption for smtp password under /config folder.<p>
+-encryption for smtp credential stored under /config folder.<p>
