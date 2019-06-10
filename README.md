@@ -2,7 +2,7 @@
 
 Very simple project to monitor passively your brand against malicious responses
 
--=-=-=-=-Brand Monitoring against DNS Pharming/Poisoning attacks -=-=-=-=-=
+-=-=-=-=-<b>Brand Monitoring against DNS Pharming/Poisoning attacks</b> -=-=-=-=-=<br>
 -=-=-=-=-       v.1.0 2019-06-09 	             -=-=-=-=-=
 
 ![alt text](https://raw.githubusercontent.com/byhardest/dnspharming/master/dnspharming_bash.png)
