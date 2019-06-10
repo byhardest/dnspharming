@@ -46,3 +46,8 @@ They can be extracted and set to a SIEM. <p></p>
 -support for multiple domains.<p>
 -compression and rotation for /logs folder.<p>
 -encryption for smtp password under /config folder.<p>
+
+
+How does the attack work?
+
+![Source:Imperva](https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/DNS-spoofing.jpg
