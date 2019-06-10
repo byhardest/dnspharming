@@ -39,7 +39,7 @@ Following the procedures above or picking up an account is at your own risk.
 <b>-=-=-=-=-=LOGS-=-=-=-=</b>
 
 Logs are generated under /logs within files written per month.
-They can be extracted and set to a SIEM.
+They can be extracted and set to a SIEM. <p></p>
 
 -=-=-=-=-=To be improved-=-=-=-=-=
 
